@@ -1,7 +1,12 @@
 package com.linda.food.model;
 
+import org.springframework.data.annotation.Id;
+import org.springframework.data.elasticsearch.annotations.Document;
+
+@Document(indexName = "food", type = "ingredient")
 public class Ingredient {
 
+    @Id
     private String id;
     private String name;
 
