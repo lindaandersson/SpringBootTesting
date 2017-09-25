@@ -1,8 +1,8 @@
 package com.linda.food.service;
 
-import com.linda.food.model.Ingredience;
+import com.linda.food.model.Ingredient;
 
 public interface FoodService {
 
-    Iterable<Ingredience>findAll();
+    Iterable<Ingredient>findAll();
 }

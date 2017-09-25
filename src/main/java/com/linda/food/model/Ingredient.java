@@ -1,14 +1,14 @@
 package com.linda.food.model;
 
-public class Ingredience {
+public class Ingredient {
 
     private String id;
     private String name;
 
-    public Ingredience(){
+    public Ingredient(){
     }
 
-    public Ingredience(String id, String name) {
+    public Ingredient(String id, String name) {
         this.id = id;
         this.name = name;
     }
@@ -31,7 +31,7 @@ public class Ingredience {
 
     @Override
     public String toString() {
-        return "Ingredience{" +
+        return "Ingredient{" +
                 "id='" + id + '\'' +
                 ", name='" + name + '\'' +
                 '}';
